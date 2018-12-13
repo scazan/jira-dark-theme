@@ -1,10 +1,37 @@
 body {
-  filter: invert(88%);
+  filter: invert(90%);
   background-color: #1f1f1f !important;
 }
 
 #page img,
 .img-wrapper,
 span[role="img"] {
-  filter: invert(88%);
+  filter: invert(90%);
+}
+.adg3 .js-issue.ghx-selected, .adg3 .js-issue.ghx-selected .ghx-items-container {
+  background: #e2e2e2 !important;
+}
+.aui-page-header, .aui-page-panel, .aui-page-panel-nav {
+  background-color: #f0f0f0 !important;
+}
+.adg3 .ghx-summary, .adg3 .ghx-summary .ghx-inner {
+  color: #2a2a2a !important;
+}
+#content .aui-page-panel .subnavigator-title, #content .aui-page-panel>h1 {
+  color: #2a2a2a !important;
+}
+#breadcrumbs-container {
+  display:none !important;
+}
+.adg3 #ghx-header {
+  margin: 0 !important;
+  display: none !important;
+}
+#ghx-quick-filters {
+  margin-bottom: 0px !important;
+}
+#content {
+  background-color: #ffffff !important;
+  margin-left: 0 !important;
+  padding-left: 15px !important;
 }
